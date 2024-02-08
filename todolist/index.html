@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="mainpage">
+        <section class="todo"> 
+            <button class="todobtn">Add todo</button>
+             <p class="headtodo">TODO</p>
+        </section>
+        <section class="todolist">
+            <div class="div-1">
+                <h1 class="para">Complete HTML Learning&nbsp;<i class="fa fa-exclamation" aria-hidden="true"></i><i class="fa fa-exclamation" aria-hidden="true"></i></h1>
+                <div class="btn-1">
+                    <p>learn all HTML senematic tags ,learn new article tag.</p>
+                    <button class="btn-2"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="div-1">
+                <h1>Learn map() method&nbsp;<i class="fa fa-exclamation" aria-hidden="true"></i><i class="fa fa-exclamation" aria-hidden="true"></i><i class="fa fa-exclamation" aria-hidden="true"></i></h1>
+                <div class="btn-1">
+                    <p>Learn how to implement map method in javascript.</p>
+                    <button class="btn-2"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="div-1">
+                <h1>Takes notes&nbsp;<i class="fa fa-exclamation" aria-hidden="true"></i><i class="fa fa-exclamation" aria-hidden="true"></i></h1>
+                <div class="btn-1">
+                    <p>Take notes regarding css fundamentals</p>
+                    <button class="btn-2"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="div-1">
+                <h1>Water plants&nbsp;<i class="fa fa-exclamation" aria-hidden="true"></i></h1>
+                <div class="btn-1">
+                    <p>Water all plants in garden</p>
+                    <button class="btn-2"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="login-page d-none">
+            <section class="login">
+                <form action="#">
+                    <div class="div-2">
+                        <label for="">Todo name</label>
+                        <input type="text" class="input-1" id="tname">
+                    </div>
+                    <div class="div-2">
+                        <label for="">Description</label>
+                        <textarea type="text" rows="3" class="input-1" id="tdescription"></textarea>
+                    </div>
+                    <div class="div-2">
+                        <label for="">Priority</label>
+                        <select name="" id="opt" class="input-1">
+                            <option value=""></option>
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+                    <div class="div-2" id="form-btn">
+                        <button class="save">Save</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+    
+    <script src="/JS/main.js"></script>
+</body>
+</html>

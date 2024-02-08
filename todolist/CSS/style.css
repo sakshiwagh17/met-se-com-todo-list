@@ -1,0 +1,118 @@
+*{
+    box-sizing: none;
+}
+
+.todo{
+    height: 40vh;
+    width:100%;
+    border:2px solid black;
+    border-radius: 25px;
+    background-image: url("/IMAGE/todoimg.jpg"); 
+    /* background-color: transparent;
+    background-image: linear-gradient(),url("/IMAGE/todoimg.jpg"); */
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.todolist{
+    width:40vw;
+    border:2px solid black;
+    position: absolute;
+    top:160px;
+    right: 450px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1rem;
+}
+.div-1{
+    border-bottom: 2px solid rgb(208, 206, 206);
+}
+.headtodo{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 0.5rem;
+}
+.todobtn{
+    background-color:#367BF5;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    outline: #367BF5;
+    margin-bottom: 40px;
+}
+.btn-1{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-2{
+    color: #EA3D2F;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+/* for form popup */
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.566);
+}
+.login{
+    width:25vw;
+    border: 2px solid gray;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top:150px;
+    box-shadow: 0 5px 10px rgb(163, 163, 163);
+}
+.div-2{
+    padding: 0.5rem;
+}
+.input-1{
+    width: 20vw;
+    resize: none;
+    padding: 15px;
+    border-radius: 30px;
+    border:2px solid #367BF5;
+    background-color: #C481FF;
+}
+#opt{
+    width:22vw;
+}
+#form-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.save{
+    border-radius: 15px;
+    background-color:  #367BF5;
+    padding: 0.3rem 1rem;
+    color: white;
+    border: 0;
+    outline: none;
+    transition-property: box-shadow;
+    transition-duration: 0.5ms;
+}
+.save:hover{
+    box-shadow: 0 5px 5px 5px rgb(195, 193, 193);
+}
+/* for hide pop */
+.d-none{
+    display: none !important;
+}
+
